@@ -1,0 +1,27 @@
+:root {
+    --body-bg: #1a1010;
+    --header-bg: #302424;
+
+    --main-text-color: #fff;
+
+    --link-hover: #bb7d36;
+
+    --transition-duration: 0.3s;
+    --transition: all var(--transition-duration) ease-in-out;
+
+    --button-bg: #bd8842;
+
+    --button-shadow: rgba(255, 153, 0, 0.3);
+    --button-hover-shadow: rgba(255, 153, 0, 0.7);
+
+    --author-block-bg: #24211f;
+
+    --table-ood-bg: #24211f;
+    --table-even-bg: #3f3934;
+
+    --faq-item-border-color: #bdafaf;
+
+    --swiper-slide-border: #fff;
+
+    --footer-bg: #302424;
+}

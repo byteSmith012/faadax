@@ -1,0 +1,118 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  background: var(--body-bg);
+  color: var(--main-text-color);
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-little {
+  max-width: 1053px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header__language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 100%;
+  bottom: 100%;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  width: 40px;
+  background: var(--header-bg);
+  margin-top: 4px;
+}
+
+.dropdown-list li {
+  padding: 6px 10px;
+  cursor: pointer;
+  background: var(--header-bg);
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-list li:hover {
+  background: var(--header-bg);
+  opacity: 0.7;
+}
+
+header {
+  background: var(--header-bg);
+}
+
+a {
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+.btn-primary {
+  color: inherit;
+  background: var(--button-bg);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 13px 30px;
+  box-shadow: 0 0 20px var(--button-shadow);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 20px var(--button-hover-shadow);
+  color: inherit;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  table {
+    min-width: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 35px;
+  }
+  body {
+    font-size: 18px;
+  }
+}
+@media (max-width: 430px) {
+  h2 {
+    font-size: 27px;
+  }
+  body {
+    font-size: 17px;
+  }
+}
